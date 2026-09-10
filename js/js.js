@@ -43,3 +43,12 @@ function Tabuada() {
     document.getElementById("tabuada").innerHTML = result;
 }
 
+let saida5, q;
+function Gerar() {
+    saida5 = ""
+    for (q = 0; q<=5; q++){
+        saida5 = saida5 + '<div class="caixa"></div>'
+    }
+
+    document.getElementById("quadrado").innerHTML = saida5;
+}
